@@ -20,6 +20,7 @@ public class LCQ_Subsets {
 		{
 			//System.out.println(ll);
 			ans.add(new ArrayList<Integer>(ll));
+			return;
 		}
 		subset(arr,i+1,ll,ans);
 		ll.add(arr[i]);
